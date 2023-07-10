@@ -14,7 +14,7 @@ const Home = () => {
 
   
   return (
-    <div><h1 style={{textAlign: "center"}}>RANDOM USER API</h1>
+    <div className="container"><h1 style={{textAlign: "center"}}>RANDOM USER API</h1>
       {data?.map((user, index) => {
         return <Card key={index} userData={user} />;
       })}

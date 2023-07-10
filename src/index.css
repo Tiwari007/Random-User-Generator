@@ -1,6 +1,7 @@
 *{
-  background-image: conic-gradient(rgb(39, 35, 35), rgb(136, 136, 130), rgb(181, 192, 181), rgb(53, 53, 109), black);
-  color: white;
+background: #626662;
+background: linear-gradient(135deg, #626662, #120D0D);
+color: white;
 }
 
 
@@ -17,4 +18,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 60%;
+  margin: auto;
 }
